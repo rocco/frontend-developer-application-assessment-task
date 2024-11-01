@@ -1,0 +1,7 @@
+{
+  "name": "frontend-developer-application-assessment-task",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
