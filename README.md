@@ -1,6 +1,6 @@
 # TIE Probeaufgabe Frontend
 
-Im Grundlegenden ist dies eine "leere" Basisinstallation von Ionic. Startbar ist diese mit `npm run start`.
+Im Grundlegenden ist dies eine "leere" Basisinstallation von Ionic. Startbar ist diese mit `npm i && npm run start`.
 Der [unauthorized-interceptor.ts](/src/interceptors/unauthorized.interceptor.ts) leitet an den auth-service weiter sobald man nicht mehr eingeloggt ist. Dort meldest du dich mit den von uns zur Verfügung gestellten Credentials an und wirst dann wieder auf die App zurückgleitet.
 
 Im [tab1](/src/app/tab1/tab1.module.ts) findest du den Einstiegspunkt für deine Aufgabe.
