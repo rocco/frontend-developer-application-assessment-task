@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +8,13 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  constructor(
+    private http: HttpClient
+  ) {}
+
+  logout(){
+    this.http.post('/auth-service/jslogout?application=p-p-dev&path=/',{}).subscribe();
+    window.location.reload();
+  }
 
 }
