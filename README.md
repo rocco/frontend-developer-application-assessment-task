@@ -10,7 +10,7 @@ Dieser gibt dir eine Dokumentenliste zurück. Und zeigt auch auf wie die 3 Aufru
 
 Sukzessive kann man jetzt folgende Punkte umsetzen:
 1. Responsive und ansprechende Darstellung der Liste
-2. Responsive und ansprechende Darstellung der verschiedenen Dokumente(narten)
+2. Responsive und ansprechende Darstellung der Vorschau der verschiedenen Dokumente(narten)
 3. Anzeigen des Menüs auf Listenelemente
 4. Den Aktivitäten im Menü folgen - "follow the rabbit hole".
 
