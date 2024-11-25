@@ -17,5 +17,22 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-content class="ion-padding">
+
+    <ion-refresher slot="fixed" (ionRefresh)="loadData($event)">
+      <ion-refresher-content></ion-refresher-content>
+    </ion-refresher>
+
+    <ion-list [inset]="true" *ngIf="userDocuments.length > 0">
+      <ion-item [button]="true" *ngFor="let item of userDocuments">
+        <ion-icon slot="start" color="primary" [name]="item ? 'ellipse' : ''"></ion-icon>
+        <ion-label>
+          <h2>{{ item.objName }}</h2>
+          <p>{{ item.objclass.type }}</p>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+
 </ion-content>
