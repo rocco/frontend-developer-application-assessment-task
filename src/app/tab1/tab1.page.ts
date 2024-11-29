@@ -1,9 +1,8 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, NgIterable, OnInit } from '@angular/core';
-import { firstValueFrom } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
 import { LoadingController } from '@ionic/angular';
 import { UserDocument } from '../services/documents.interfaces';
-import { inject, Injectable } from '@angular/core';
+import { inject } from '@angular/core';
 import { DocumentsService } from '../services/documents.service';
 
 @Component({
